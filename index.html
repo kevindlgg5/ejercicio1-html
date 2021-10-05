@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/{form_id}" method="post">
+        <label>Nombre de Usuario:
+            <input placeholder="Nombre de Usuario" name="NombreUsuario" type="text">
+        </label>
+        <br>
+        <label>Mail:
+            <input placeholder="Mail" name="Mail" type="email">
+        </label>
+        <br>
+        <label>Contraseña:   
+            <input placeholder="Contraseña" name="Contraseña" type="password">
+        </label>  
+        <br>
+        <label>Marca Auto
+            <select name="Auto">
+                <option value="F">Ford</option>
+                <option value="C">Chevrolet</option>
+                <option value="T">Toyota</option>
+            </select>
+        </label>
+        <br>
+        <label>Acepta las bases y condiciones:
+            <input type="checkbox" name="ByC" value="Acepta">
+        </label>
+        <br>
+        <label>¿Alguna duda?<br>
+            <textarea name="Comentarios" cols="30" rows="10" placeholder="Deja tu Comentario"></textarea>
+            <input type="submit">
+        </label>
+ </form>
+</body>
+</html>
